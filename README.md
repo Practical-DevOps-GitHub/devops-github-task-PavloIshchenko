@@ -5,7 +5,7 @@
 
 2. Create branch `develop` as default branch.
 
-3. Protect branches `main` and `develop` with these rules:
+3. Protect brnches `main` and `develop` with these rules:
 - user can't merge to both branches without pull request
 - allowed to merge to `develop` branch only if we have 2 approvals
 - merge to `main` branch allowed if only owner approved PR
